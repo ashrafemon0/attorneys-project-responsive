@@ -1,0 +1,327 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Heebo', sans-serif;
+	font-size: 13px;
+	line-height: 23px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Heebo', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.header-menu{
+	width: 100%;
+}
+.header-menu .bg-light{
+	background-color: #fff !important;
+}
+.header-menu .navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.banner-area{
+	width: 100%;
+	background-image: url(../images/slider.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0px 50px 0px;
+
+}
+.banner-area h1{
+	color: #fff;
+	font-size: 45px;
+	line-height: 55px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.banner-area img{
+	padding: 150px 0px 0px 0px;
+}
+.who-area{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-area .who{
+	margin-top: 40px;
+}
+.who-area .who .title h3{
+	text-transform: uppercase;
+	color: #204f87;
+	font-weight: 600;
+}
+.who-area .who p{
+	color: #b0b0b1;
+	font-size: 15px;
+	line-height: 25px;
+}
+.what-do-area{
+	width: 100%;
+	background-image: url(../images/slider2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 80px 0px;
+}
+.what-do-area .card{
+	border: 0px !important;
+}
+.what-do-area .title h3{
+	text-transform: uppercase;
+	color: #204f87;
+	font-weight: 600;
+	margin: 0px 0px 35px 0px;
+}
+.what-do-area .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+     
+}
+.what-do-area .card-body .card-title{
+	color: #fff;
+	text-transform: uppercase;
+}
+.what-do-area .card-body img.arrows {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+
+}
+.attorneys-area{
+	width: 100%;
+	background-image: url(../images/attor.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.attorneys-area .card{
+	border: 0px !important;
+}
+.attorneys-area .title{
+	margin-top: 35px;
+}
+.attorneys-area .title h3{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	margin: 0px 0px 20px 0px;
+}
+.attorneys-area .title p{
+	color: #fff;
+}
+.attorneys-area .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+     
+}
+.attorneys-area .card-body .card-title{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 28px;
+}
+.attorneys-area .card-body img.arrows {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+
+}
+.attorneys-area .title .btn-light{
+	background-color: transparent !important;
+	border: none;
+	text-transform: uppercase;
+	color: #f2622c;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 700;
+	font-size: 12px;
+}
+.language-area{
+	width: 100%;
+	padding: 80px 0px;
+}
+.language-area .title{
+	text-align: center;
+	text-transform: uppercase;
+	color: #204f87;
+	margin: 0px 0px 40px 0px;
+}
+.language-area h4{
+	text-transform: uppercase;
+	color: #204f87;
+	font-size: 18px;
+	line-height: 38px;
+	font-weight: 600;
+
+}
+.language-area p{
+	color: #b1b0b1;
+	text-align: justify;
+}
+.language-area .btn-light{
+	background-color: transparent !important;
+	border: none;
+	text-transform: uppercase;
+	color: #f2622c;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 700;
+	font-size: 12px;
+}
+.contact-area{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #204f87;
+}
+.contact-area .title{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px 0px 40px 0px;
+}
+.contact-area .forms .cus-form {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4759a7;
+    padding: 40px 0px 5px 2px;
+    color: #fff;
+}
+.contact-area .forms ::placeholder{
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+.contact-area .btn-light{
+	background-color: #f2622c !important;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 80px;
+	font-weight: 700;
+	font-size: 12px;
+}
+.copywrite{
+	width: 100%;
+	background-color: #0c1234;
+	padding: 20px 0px;
+}
+.copywrite .icon{
+	text-align: right;
+}
+.copywrite p{
+	color: #fff;
+}
+.copywrite .icon i{
+	font-size: 15px;
+	color: #fff;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .copywrite .icon{
+	text-align: center;
+}
+.copywrite p{
+	color: #fff;
+	text-align: center;
+}
+.attor1{
+	margin-bottom: 20px;
+}
+.attor2{
+	margin-bottom: 20px;
+}
+.attorneys-area{
+	padding: 40px 0px;
+}
+.who-area .who .title{
+	text-align: center;
+}
+}
